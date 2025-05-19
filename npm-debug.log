@@ -1,0 +1,32 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\tandi\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'view',
+1 verbose cli   '--json',
+1 verbose cli   '--',
+1 verbose cli   '@credo-ts/core',
+1 verbose cli   'description',
+1 verbose cli   'dist-tags.latest',
+1 verbose cli   'homepage',
+1 verbose cli   'version',
+1 verbose cli   'time'
+1 verbose cli ]
+2 info using npm@1.3.0
+3 info using node@v22.15.0
+4 verbose registry.get not expired, no request
+5 error TypeError: Cannot read properties of undefined (reading 'hasOwnProperty')
+5 error     at C:\Users\tandi\AppData\Roaming\npm\node_modules\npm\lib\view.js:61:27
+5 error     at RegClient.get_ (C:\Users\tandi\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\get.js:101:14)
+5 error     at RegClient.<anonymous> (C:\Users\tandi\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\lib\get.js:37:12)
+5 error     at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read/context:68:3)
+6 error If you need help, you may report this log at:
+6 error     <http://github.com/isaacs/npm/issues>
+6 error or email it to:
+6 error     <npm-@googlegroups.com>
+7 error System Windows_NT 10.0.22621
+8 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\tandi\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "view" "--json" "--" "@credo-ts/core" "description" "dist-tags.latest" "homepage" "version" "time"
+9 error cwd c:\Users\tandi\credo_demo
+10 error node -v v22.15.0
+11 error npm -v 1.3.0
+12 verbose exit [ 1, true ]
